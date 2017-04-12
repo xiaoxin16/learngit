@@ -1,1 +1,10 @@
 this is my first line
+
+git init
+git config --global user.email "490482978@qq.com"
+git config --global user.name "xiaoxin16"
+git remote add origin https://github.com/xiaoxin16/learngit.git
+
+git add file.txt 
+git commit -m "first commit"
+git push -u origin master
