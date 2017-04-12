@@ -8,3 +8,4 @@ git remote add origin https://github.com/xiaoxin16/learngit.git
 git add file.txt 
 git commit -m "first commit"
 git push -u origin master
+git push origin master
