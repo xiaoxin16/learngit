@@ -17,3 +17,9 @@ git add README.md
 git commit -m "end..."
 git checkout master
 git merge etc
+
+git branch branch-1
+git checkout branch-1
+git push origin branch-1
+git branch -d branch-1
+git push origin :branch-1
