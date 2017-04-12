@@ -10,3 +10,9 @@ git add file.txt
 git commit -m "first commit"
 git push -u origin master
 git push origin master
+
+git checkout -b etc
+git add README.md
+git commit -m "end..."
+git checkout master
+git merge etc
