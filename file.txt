@@ -23,3 +23,8 @@ git checkout branch-1
 git push origin branch-1
 git branch -d branch-1
 git push origin :branch-1
+
+#版本查看与回退
+git clone 下载源码
+git tag　列出所有版本号
+git checkout　+某版本号
